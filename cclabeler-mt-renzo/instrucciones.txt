@@ -1,0 +1,18 @@
+
+
+Tener instalado:
+- Python 3.+
+- Django (pip install django)
+
+Ejecutar:
+> python manage.py runserver 0.0.0.0:8000
+
+
+Usr: mtcrowd 
+Pwd: mtcrowd
+
+
+La anotación se encuentra en el directorio "./data/jsons/" 
+
+
+

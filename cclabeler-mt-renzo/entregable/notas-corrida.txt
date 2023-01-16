@@ -1,0 +1,12 @@
+Se corrió CSRNet implementación en Keras. Basado en https://github.com/DiaoXY/CSRnet
+
+No se adjuntaron los pesos de los modelos, se encuentran en https://github.com/DiaoXY/CSRnet/tree/master/checkpoint
+
+Debido a su alta resolución imagenes bm01, bm02, cm01 y cm02 tuvieron que ser procesadas partiendo la imagen en 8 y reconstruyendo el mapa de densidad (no daba la ram del equipo para correr el modelo con las mismas)
+
+--- Model A finished. Total MAE : 849.3829345703125 ---
+--- Model B finished. Total MAE : 873.3850708007812 ---
+
+Dio un resultado bastantante malo el modelo contra las anotaciones, seguramente porque no esperaba gente anotada en las oclusiones, pero también mirando los mapas de densidad (no adjuntados por limite de tamaño), el modelo estimó gente de menos en el fondo.
+
+En general anduvo bien con las a y varias de las b, pero mirando los resultados (test_A y test_B) se pueden ver varios casos como cm06.jpg que estimó 2856.823 cuando habían 7016.996 personas anotadas.

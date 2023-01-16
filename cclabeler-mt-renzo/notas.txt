@@ -1,0 +1,198 @@
+aj01
+- Los paraguas hacen muy dificil la anotación
+- Tiene fotos de personas
+
+aj02
+- Los paraguas hacen muy dificil la anotación
+- Tiene fotos de personas
+
+aj03
+- Los paraguas hacen dificil la anotación, pero el angulo alto ayuda
+
+aj04
+- Los paraguas hacen dificil la anotación, pero el angulo alto ayuda
+
+aj05
+- Los paraguas hacen dificil la anotación, pero el angulo alto ayuda
+- Muchas personas se salen de la foto
+
+aj06
+- El angulo facilita anotar
+
+aj07
+- Muchas personas se salen de la foto
+
+aj08
+- La foto está movida y eso dificulta mucho la anotación, principalmente en el lado izquierdo
+- La foto no tiene muy buena calidad
+
+aj09
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj1
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj11
+- En el fondo de la imagen hay mucha oclusión y la misma no tiene buena resolución para distinguir bien
+
+aj12
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj13
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj14
+- La baja densidad de personas facilita anotar
+
+aj15
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj16
+- Por el ángulo bajo hay algo de oclusión entre las personas
+
+aj17
+- Imagen senciulla de anotar. Hay una persona atras de la del medio que es  dificil de ver.
+
+am01
+- Imagen sencilla de anotar
+
+am02
+- Imagen sencilla de anotar
+
+am03
+- Imagen razonablemente sencilla de anotar, cuesta ver a las personas lejos
+
+am04
+- Imagen sencilla de anotar
+
+am05
+- Imagen razonablemente sencilla de anotar, cuesta ver a las personas lejos
+
+am06
+- Imagen sencilla de anotar
+
+am07
+- Imagen sencilla de anotar
+
+bj01
+- Imagen razonablemente sencilla de anotar, los paraguas dificultan la lejania. La mayoria de estimaciones vienen de paraguas
+
+bj02
+- Imagen dificil de anotar. La enorme mayoria de anotaciones son paraguas
+
+bj03
+- Imagen razonablemente sencilla de anotar. La sombra en el fondo y la oclusión de las banderas complica distinguir a la multitud. Se anotarn banderas a lo lejos asumiendo alguien las lleva.
+
+bj04
+- Imagen sencilla de anotar
+
+bj05
+- Imagen razonablemente sencilla de anotar, en el fondo se pixela bastante la hacer zoom
+
+bj06
+- Imagen sencilla de anotar
+
+bj07
+- El fondo de lai magen es dificil de anotar por el brillo. Se destaca dos personas anotadas en la ventana a la derechaww
+
+bj08
+- Imagen sencilla de anotar
+
+bj09
+- Imagen razonablemente sencilla de anotar
+
+bj10
+- Imagen sencilla de anotar. Se destacan unas personas en el fondo a lo lejkos de la multitud.
+
+bj11
+- Imagen sencilla de anotar
+
+bj12
+- Imagen razonablemente sencilla de anotar
+
+bm01
+- Imagen razonablemente sencilla de anotar
+
+bm02
+- Imagen dificil de anotar en el fondo. Se destacan muchas personas fuera de la multitud en el horizonte (sobre plataformas).
+
+bm03
+- Imagen incorrectamente asignada. Duplicada con cm03
+
+bm04
+- Imagen razonablemente compleja de anotar
+
+bm05
+- Imagen muy dificil de anotar al fondo, las cabezas parecen siendo una masa gris por la iluminación y perspectiva
+
+bm06
+- Extremadamente dificil de anotar al fondo.
+- Se intentó seguir un patrón.
+- Tendría que ser una imagen C.
+- El humo y pancartas ofuscan gente
+
+bm07
+- Imagen razonablemente sencilla de etiquetar.
+- Hay ofuscación por la estatua y ramas.
+- Se destacan los carteles con caras (que no fueron anotados)
+
+bm08
+- Imagen dificl de etiquetar.
+- Poca resolución ym mucha ofuscación con las ramas, se asumió la densidad de personas se mantenia
+
+bm09
+- Imagen razonable de anotar.
+-  Se destaca el problema de perspectiva al fondo. En particualr en las tiendas y omnibuses.
+- Se anotó una persona por auto (conductor)
+
+bm10
+- Imagen facil de anotar adelante, pero borrosa atrás, se estimaron anotaciones atras de los carteles
+
+bm11
+- Imagen tendría que ser C.
+- Muy dificil de etiquetar por la escala, iluminación y calidad. Con máximo zoom todo se ve muy chico y borroso.
+- Se etiquetó intentando llegar a un patrón en las partes obstruidas, y poniendo una cantidad masiva de puntos en las partes donde cada persona es poco más que un pixel
+
+bm12
+- Imagen razonablemente compleja de editar. En el fondo es muy borrosa, se estimaron anotaciones atrás de las banderas
+
+bm13
+- Imagen razonablemente compleja de anotar en el fondo. La iluminación y el foco dejan borrosa la foto
+
+cm01
+- Se editó para tener brillo a 100%.
+- Dentro de todo contrastaban bien las cabezas o en partes habia manchas que se podian asumir cabezas.
+- Habian manchas de completa oscuridad que se estimó rellenando el patrón.
+- Se destacan las personas fuera de la multitud
+
+cm02
+- La imagen tiene muy poca calidad y por ende se ve pixelada con zoom, de igual forma las caras contrastan en el frente.
+- Luego por la luz contrastan pero son manchas verdes, se asumió todas eran caras. Al final es todo una masa borrosa.
+
+cm03
+- Imagen muy dificil de etiquetar, no sólo por la cantidad de personas sino porque por la resolución se ve borroso al hacer zoom, cuesta mucho distinguir cabezas y la anotación debe de tener errores.
+- En el fondo se marcaron mmuchos puntos siguendo un patron logic, pero resultaba casi imposible distinguir cabezas.
+- Se destacan personas fuera de la multitud en calles adyacentes. Se anotó una persona en un auto.
+
+cm04
+- Es claro distinguir a las personas en gran parte de la imagen, si bien son muchas es clara de etiquetar (debido al contraste de prendas).
+- Esto deja de ser así al final de la marcha que incrementa drasticamente la cantidad de gente en la escala.
+- Se agregó una persona dentro del kiosco, dado que tiene una fila. Se destacan personas en ventanas y techos
+
+cm05
+- No hay buena calidad al anotar con zoom, pero se distingue razonablemente bien las cabezas en la primer mitad de la imagen, en el fondo solo se pueden estimar puntos en una mancha de muchedumre y arboles.
+- Se destacan las cantidad de personas fuera de la múltitud. Se asumió se sigue el patrón de personas atras de los carteles.
+
+cm06
+- Imagen con parcialmente buen contraste para etiquetar.
+- Al fondo sin embargo el sol hace perder este contraste y las cabezas pasan a ser una masa de gente
+
+cm07
+- Imagen con buen contraste que ayuda a etiquetar, se destacan los carteles tapando la multitud.
+- Al fondo en el horizonte la gente termina siendo una mancha que se llenó de puntos
+
+cm08
+- Imagen borrosa al hacer mucho zoom. Se distinguen razonablemente bien las cabezas de casi toda la imagen, salvo en el extremo del horizonte, que la marcha parece seguir por dos cuadras.
+- En dicho extremo se colocaron muchos puntos, pero no parece ser una estimación razonable
+- Hay arboles que tapan, se asume se sigue el patrón de gente bajo ellos, salvo en la cuadra que hay poca gente.
+- Se destacan las personas en edificios

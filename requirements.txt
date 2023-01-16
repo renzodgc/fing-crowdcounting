@@ -1,0 +1,12 @@
+django
+pillow
+h5py
+numpy
+scipy
+matplotlib
+pandas
+tqdm
+opencv-python
+scikit-learn
+tensorflow-gpu
+cuda-python

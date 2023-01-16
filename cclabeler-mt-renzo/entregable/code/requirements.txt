@@ -1,0 +1,9 @@
+h5py
+scipy
+matplotlib
+opencv-python
+keras
+tensorflow
+pandas
+sklearn
+tqdm
