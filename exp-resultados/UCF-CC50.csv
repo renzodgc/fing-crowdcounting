@@ -10,18 +10,3 @@ DM-Count-QNRF, 468.2744, 461875.9169, 468.2744, 503.5936, 540.1029, 53.7204, 0.9
 SFANet-SHB, 1145.0595, 2247287.0663, 1145.0595, 1146.3026, 1149.8768, 51.8694, 0.9702
 SASNet-SHA, 480.5547, 619694.0537, 480.5547, 511.6908, 535.1027, 54.0781, 0.9848
 SASNet-SHB, 1195.4537, 2258849.4492, 1195.4537, 1195.4538, 1196.8268, 51.7588, 0.9683
-
-def calculate_game(self, gt_den, pred_den, blocks=4):
-    result = 0  # Aggregation of errors per block (mean is calculated afterwards)
-    gt_den = self.split_matrix(gt_den, blocks=blocks)
-    pred_den = self.split_matrix(pred_den, blocks=blocks)
-    for i, (gden, pden) in enumerate(zip(gt_den, pred_den), start=1):
-      block_result = abs(np.sum(pden) - np.sum(gden))
-      result += block_result
-    if math.isnan(result):
-      ipdb.set_trace()
-    return result
-
- T, B = np.array_split(matrix, 2)
-      TL, TR = np.array_split(T, 2, axis=1)
-      BL, BR = np.array_split(B, 2, axis=1)
