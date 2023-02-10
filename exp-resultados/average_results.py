@@ -1,6 +1,7 @@
 import pandas as pd
 
 ROOT = "d:/OneDrive - Facultad de Ingeniería/Documents/Academics/fing-crowdcounting/exp-resultados/"
+ROOT = "/home/renzo/fing/fing-crowdcounting/exp-resultados/"
 
 shbs = [pd.read_csv(f'{ROOT}SHB1.csv'), pd.read_csv(f'{ROOT}SHB2.csv')]
 
