@@ -117,7 +117,7 @@ def merge_images_vertical(lwcc: Image, sasnet: Image) -> Image:
     row_height += dmcount_shb.height + MARGIN
 
     # Row 6
-    merged_image.paste(sfa_shb, (merged_image.width//2 - sfa_shb.width//2, row_height))
+    merged_image.paste(sfa_shb, (merged_image.width - sfa_shb.width - 2*MARGIN, row_height))
 
     return merged_image
 
@@ -154,7 +154,7 @@ def merge_images_horizontal(lwcc: Image, sasnet: Image) -> Image:
     row_width += dmcount_shb.width + MARGIN
 
     # Row 6
-    merged_image.paste(sfa_shb, (row_width, merged_image.height//2 - sfa_shb.height//2))
+    merged_image.paste(sfa_shb, (row_width, merged_image.height - sfa_shb.height - MARGIN))
 
     return merged_image
 
