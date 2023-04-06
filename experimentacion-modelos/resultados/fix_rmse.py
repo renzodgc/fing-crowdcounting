@@ -8,6 +8,5 @@ print(glob.glob(f"{ROOT}*.csv"))
 csvs = [(path, pd.read_csv(path)) for path in glob.glob(f"{ROOT}*.csv")]
 
 for path, data in csvs:
-    import pdb; pdb.set_trace()
     data["RMSE"] = data["MSE"]**(1/2)
     data.to_csv(path, float_format='%.4f')

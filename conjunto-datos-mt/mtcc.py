@@ -8,7 +8,7 @@ import math
 import pandas as pd
 import statistics
 
-DATASET_PATH = "mt_datos/ground_truth/*/*.json"
+DATASET_PATH = "conjunto-datos-mt/ground_truth/*/*.json"
 MT_UMBRELLA = ["aj01", "aj02", "aj03", "aj04", "bj01", "bj02"]
 MT_LOW = ["aj06", "aj08", "aj09", "aj10", "aj11", "aj12", "aj13", "aj14", "aj15", "aj16", "aj17", "am01", "am04"]
 MT_MID = ["aj05", "aj07", "am02", "am03", "am05", "am06", "am07", "bj03", "bj04", "bj05", "bj06", "bj07", "bj08", "bj09", "bj10", "bj11", "bj12", "bm01", "bm02", "bm04", "bm07", "bm08", "bm09", "bm10", "bm12", "bm13"]
@@ -70,7 +70,7 @@ def print_general_statistics(annotations, title):
     print(f"{title} mean: %.2f" % statistics.mean(total_annotations))
 
 def process_metrics(subset, title):
-    with open("mt_datos/results_models_metrics.json") as f:
+    with open("conjunto-datos-mt/results_models_metrics.json") as f:
         data = json.load(f)
     df = pd.DataFrame()
     final_metrics = {"Model": [], "MAE": [], "MSE": [], "RMSE": [], "GAME4": [], "GAME16": [], "PSNR": [], "SSIM": []}
@@ -92,14 +92,14 @@ def process_metrics(subset, title):
             final_metrics["PSNR"].append(round(statistics.mean(psnr), 4))
             final_metrics["SSIM"].append(round(statistics.mean(ssim), 4))
     df = pd.DataFrame.from_dict(final_metrics)
-    df.to_csv(f"mt_datos/metrics/{title}.csv")
+    df.to_csv(f"conjunto-datos-mt/metrics/{title}.csv")
 
 def main():
     annotations_umbrella, annotations_low, annotations_mid, annotations_aerial, annotations_all = read_annotations()
     visualize_annotations(annotations_umbrella, "Paraguas"); visualize_annotations(annotations_low, "Densidad Baja")
     visualize_annotations(annotations_mid, "Densidad Media"); visualize_annotations(annotations_aerial, "Aérea")
-    # box_plot(annotations_umbrella, "Paraguas"); box_plot(annotations_low, "Densidad baja")
-    # box_plot(annotations_mid, "Densidad Media"); box_plot(annotations_aerial, "Aérea")
+    box_plot(annotations_umbrella, "Paraguas"); box_plot(annotations_low, "Densidad baja")
+    box_plot(annotations_mid, "Densidad Media"); box_plot(annotations_aerial, "Aérea")
     print_general_statistics(annotations_all, "General")
     process_metrics(MT_UMBRELLA, "metrics_umbrella"); process_metrics(MT_LOW, "metrics_low")
     process_metrics(MT_MID, "metrics_mid"); process_metrics(MT_AERIAL, "metrics_aerial")

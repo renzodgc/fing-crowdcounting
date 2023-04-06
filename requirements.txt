@@ -10,3 +10,5 @@ opencv-python
 scikit-learn
 tensorflow-gpu
 cuda-python
+keras
+sklearn
