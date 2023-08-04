@@ -21,7 +21,7 @@ Este directorio contiene:
 - Sus 12 anotaciones para cada imagen en la carpeta `ground truth`.
 - La divisón en cuatro subconjuntos en la carpeta `images_split`.
 - El script `mtcc.py` basado en las dependencias del [requirements.txt](https://github.com/renzodgc/fing-crowdcounting/blob/main/requirements.txt) del repositorio general. Que analiza los datos y genera las graficas y tablas entregadas.
-- Las gráficas generadas y métricas obtenidas y empleadas en el informe se encuentran en la ccarpeta `graphs` y `metrics`.
+- Las gráficas generadas y métricas obtenidas y empleadas en el informe se encuentran en la carpeta `graphs` y `metrics`.
 
 El script `mtcc.py` genera los siguientes resultados:
 - Lee las anotaciones del conjunto en su totalidad y sus subconjuntos a través de la función `read_annotations`.
